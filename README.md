@@ -5,5 +5,5 @@ The user will then be able to view and or add stats for each game the players pl
 Sports Stat Keeper will then automatically calculate the newly added stat numbers with previous existing ones (if any) and update the players' stat lines.
 
 ### Built With
-* [ReactJS] (https://reactjs.org/)
-* [MongoDB] (https://www.mongodb.com/) - Database being used
+* [ReactJS](https://reactjs.org/)
+* [MongoDB](https://www.mongodb.com/) - Database being used
