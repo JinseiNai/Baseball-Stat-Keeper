@@ -9,3 +9,6 @@ Sports Stat Keeper will then automatically calculate the newly added stat number
 ### Built With
 * [ReactJS](https://reactjs.org/)
 * [MongoDB](https://www.mongodb.com/) - Database being used
+
+### Author
+* Calvin Wang - [JinseiNai](https://github.com/JinseiNai)
