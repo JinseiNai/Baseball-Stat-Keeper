@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './images/baseball.png';
 import './App.css';
+import LoginForm from './login-form';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         >
           LOG IN
         </a>
+        <LoginForm />
       </header>
     </div>
   );
