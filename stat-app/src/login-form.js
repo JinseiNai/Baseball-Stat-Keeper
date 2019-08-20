@@ -28,11 +28,20 @@ class LoginForm extends React.Component {
         console.log(this.state.username);
         console.log(this.state.password);
         e.preventDefault();
+        this.clearForm();
+    }
+
+    clearForm() {
+        this.setState({
+            username: '',
+            password: '',
+            confirmPassword: ''
+        });
     }
 
     render() {
         return (
-            <form>
+            <form id="loginForm">
                 <label>
                     Username:
                     <input type="text" value={this.state.username} onChange={this.handleChangeUsername.bind(this)} />
