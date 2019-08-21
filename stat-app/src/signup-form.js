@@ -52,7 +52,7 @@ class SignupForm extends React.Component {
 
     render() {
         return (
-            <form id="signupForm">
+            <fieldset id="signupForm">
                 <label>
                     Create a username
                     <input type="text" value={this.state.username} onChange={this.handleChangeUsername.bind(this)} />
@@ -66,7 +66,7 @@ class SignupForm extends React.Component {
                     <input type="password" value={this.state.confirmPassword} onChange={this.handleChangeConfirmPassword.bind(this)} />
                 </label>
                 <input type="submit" value="Submit" onClick={this.handleSubmit.bind(this)} />
-            </form>
+            </fieldset>
         );
     }
 }

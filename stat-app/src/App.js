@@ -1,28 +1,20 @@
 import React from 'react';
-import logo from './images/baseball.png';
+import FrontPage from './front-page';
 import './App.css';
-import SignupForm from './signup-form';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>
-          Sports Stat Keeper
-        </h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LOG IN
-        </a>
-        <SignupForm />
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isLoggedIn: false
+    }
+  }
+
+  render() {
+    return (
+      <FrontPage />
+    );
+  }
 }
 
 export default App;

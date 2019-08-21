@@ -41,7 +41,7 @@ class LoginForm extends React.Component {
 
     render() {
         return (
-            <form id="loginForm">
+            <fieldset id="loginForm">
                 <label>
                     Username:
                     <input type="text" value={this.state.username} onChange={this.handleChangeUsername.bind(this)} />
@@ -51,7 +51,7 @@ class LoginForm extends React.Component {
                     <input type="password" value={this.state.password} onChange={this.handleChangePassword.bind(this)} />
                 </label>
                 <input type="submit" value="Submit" onClick={this.handleSubmit.bind(this)} />
-            </form>
+            </fieldset>
         );
     }
 }
