@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; 
-import FrontPage from './front-page';
+import FrontPage from './components/front-page';
 import './App.css';
 
 class App extends React.Component {
