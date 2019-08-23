@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; 
-import FrontPage from './components/front-page';
+import HomePage from './components/home-page';
+import LoginForm from './components/login-form';
+import SignupForm from './components/signup-form';
 import './App.css';
 
 class App extends React.Component {
@@ -15,7 +17,12 @@ class App extends React.Component {
     return (
       <Router>
         <Switch>
+          <div className="App App-background">
+            <Route exact path="/" component={HomePage} />
+            <Route path="/login" render={() => <LoginForm />} />
+            <Route path="/signup" render={() => <SignupForm />} />
 
+          </div>
         </Switch>
       </Router>
     );
