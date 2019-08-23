@@ -1,3 +1,4 @@
+/* App Styles */
 .App {
   text-align: center;
 }
@@ -25,6 +26,23 @@
 .App-link {
   color: #61dafb;
 }
+
+/* ---------------- */
+
+/* Login & Signup Form */
+#loginForm,
+#signupForm {
+  background-color: white;
+  color: black;
+  opacity: .9;
+}
+
+#loginForm label,
+#signupForm label {
+  display: block;
+}
+
+/* ---------------- */
 
 @keyframes App-logo-spin {
   from {

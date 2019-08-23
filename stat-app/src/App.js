@@ -21,7 +21,6 @@ class App extends React.Component {
             <Route exact path="/" component={HomePage} />
             <Route path="/login" render={() => <LoginForm />} />
             <Route path="/signup" render={() => <SignupForm />} />
-
           </div>
         </Switch>
       </Router>
