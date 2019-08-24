@@ -52,21 +52,18 @@ class SignupForm extends React.Component {
 
     render() {
         return (
-            <fieldset id="signupForm">
-                <label>
-                    Create a username
+            <div id="signupForm">
+                <fieldset>
+                    <legend>Sign Up!</legend>
+                    Enter a username:
                     <input type="text" value={this.state.username} onChange={this.handleChangeUsername.bind(this)} />
-                </label>
-                <label>
-                    Create a password
+                    Create a password:
                     <input type="password" value={this.state.password} onChange={this.handleChangePassword.bind(this)} />
-                </label>
-                <label>
-                    Confirm password
+                    Confirm password:
                     <input type="password" value={this.state.confirmPassword} onChange={this.handleChangeConfirmPassword.bind(this)} />
-                </label>
-                <input type="submit" value="Submit" onClick={this.handleSubmit.bind(this)} />
-            </fieldset>
+                    <input type="submit" value="Submit" className="submit" onClick={this.handleSubmit.bind(this)} />
+                </fieldset>
+            </div>
         );
     }
 }

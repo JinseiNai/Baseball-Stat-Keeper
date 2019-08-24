@@ -41,17 +41,16 @@ class LoginForm extends React.Component {
 
     render() {
         return (
-            <fieldset id="loginForm">
-                <label>
+            <div id="loginForm">
+                <fieldset>
+                    <legend>Log In!</legend>
                     Username:
-                    <input type="text" value={this.state.username} onChange={this.handleChangeUsername.bind(this)} />
-                </label>
-                <label>
+                    <input type="text" value={this.state.username} onChange={this.handleChangeUsername.bind(this)} />  
                     Password:
                     <input type="password" value={this.state.password} onChange={this.handleChangePassword.bind(this)} />
-                </label>
-                <input type="submit" value="Submit" onClick={this.handleSubmit.bind(this)} />
-            </fieldset>
+                    <input type="submit" value="Submit" className="submit" onClick={this.handleSubmit.bind(this)} />
+                </fieldset>
+            </div>
         );
     }
 }
