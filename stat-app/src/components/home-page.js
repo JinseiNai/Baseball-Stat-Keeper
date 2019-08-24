@@ -31,16 +31,14 @@ class HomePage extends React.Component {
 
         return (
             <div className="HomePage">
+                <h1 id="Title">Stat Tracker</h1>
                 <img src={logo} className="App-logo" alt="logo" />
-                <h1>
-                    Stat Tracker
-                </h1>
-                <div id="content">
+                <div id="homePageBtns">
                     <Link to="/login">
-                        <LoginButton onClick={this.handleClick}/>
+                        <LoginButton onClick={this.handleClick} className="loginBtn" />
                     </Link>
                     <Link to="/signup">
-                        <SignupButton onClick={this.handleClick} />
+                        <SignupButton onClick={this.handleClick} className="signupBtn" />
                     </Link>
                 </div>
             </div>

@@ -3,12 +3,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 1s linear;
-  height: 15vmin;
-  pointer-events: none;
-}
-
 .App-background {
   background: url("../src/images/baseball-field.jpg");
   background-size: cover;
@@ -25,6 +19,34 @@
 
 .App-link {
   color: #61dafb;
+}
+
+/* ---------------- */
+
+/* Home Page */
+.App-logo {
+  animation: App-logo-spin infinite 1s linear;
+  height: 12vmin;
+  pointer-events: none;
+}
+
+/* .HomePage {
+  min-height: 500px;
+}
+
+.HomePage img,
+#homePageBtns {
+  bottom: 50px;
+  position: inherit;
+} */
+
+#homePageBtns {
+  margin-top: 30px;
+}
+
+.loginBtn,
+.signupBtn {
+  margin: 10px;
 }
 
 /* ---------------- */
