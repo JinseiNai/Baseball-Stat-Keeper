@@ -12,11 +12,6 @@ class HomePage extends React.Component {
         }
     }
 
-    componentWillUnmount() {
-        let btn = document.getElementById('content');
-        btn.innerHTML='';
-    }
-
     handleClick = () => {
         this.setState({
             isBtnClicked: true
@@ -25,10 +20,6 @@ class HomePage extends React.Component {
     }
 
     render() {
-        if (this.state.isBtnClicked) {
-            this.componentWillUnmount();
-        }
-
         return (
             <div className="HomePage">
                 <h1 id="Title">Stat Tracker</h1>
