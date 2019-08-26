@@ -62,6 +62,9 @@ class SignupForm extends React.Component {
                     Confirm password:
                     <input type="password" value={this.state.confirmPassword} onChange={this.handleChangeConfirmPassword.bind(this)} />
                     <input type="submit" value="Submit" className="submit" onClick={this.handleSubmit.bind(this)} />
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                        <i class="material-icons right">send</i>
+                    </button>
                 </fieldset>
             </div>
         );
