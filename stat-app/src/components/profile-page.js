@@ -1,4 +1,5 @@
 import React from 'react';
+import FakeData from '../fake-database';
 
 class ProfilePage extends React.Component {
     constructor(props) {
@@ -8,10 +9,14 @@ class ProfilePage extends React.Component {
         }
     }
 
+
     render() {
         return (
             <div className="profilePage">
-
+                {/* Section where profile info goes */}
+                <div>
+                    
+                </div>
             </div>
         )
     }
