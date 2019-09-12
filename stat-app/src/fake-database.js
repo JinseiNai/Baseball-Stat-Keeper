@@ -1,8 +1,9 @@
 import React from 'react';
 
-function FakeData() {
-    return {
-        state = {
+class FakeData extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
             users: [
                 {
                     id: 1,
