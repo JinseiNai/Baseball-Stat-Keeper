@@ -9,13 +9,16 @@ class ProfilePage extends React.Component {
         }
     }
 
+    CheckData = () => {
+        console.log({FakeData});
+    }
 
     render() {
         return (
             <div className="profilePage">
                 {/* Section where profile info goes */}
                 <div>
-                    
+                    <button onClick={this.CheckData}>Check Data</button>
                 </div>
             </div>
         )
