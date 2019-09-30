@@ -1,0 +1,20 @@
+{
+  "name": "Sports-Stat-Keeper",
+  "version": "1.0.0",
+  "description": "Sports Stat Keeper is website / application that allows the user (typically for managers/coaches) to resister their team and players into a database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JinseiNai/Sports-Stat-Keeper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JinseiNai/Sports-Stat-Keeper/issues"
+  },
+  "homepage": "https://github.com/JinseiNai/Sports-Stat-Keeper#readme"
+}
